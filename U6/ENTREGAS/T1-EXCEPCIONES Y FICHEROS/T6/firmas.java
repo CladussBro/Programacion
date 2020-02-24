@@ -22,7 +22,7 @@ public class firmas {
                 break;
         }
     }
-    private static void FicheroFirmas() throws Exception {
+    static void FicheroFirmas() throws IOException {
         try {
             final String defecto="src/U6/T1/T6/firmas.txt";
             BufferedReader f = new BufferedReader(new FileReader(defecto));
@@ -32,13 +32,14 @@ public class firmas {
                 linea = f.readLine();
             }
             f.close();
+
         } catch (EOFException e) {
             System.out.println("No se puede abrir el fichero");;
         }catch (FileNotFoundException e){
             System.out.println("No se encontro el fichero");
         }
     }
-    private static void NuevaFirma(String nuevo) throws Exception{
+    static void NuevaFirma(String nuevo) throws IOException{
         try {
             final String defecto="src/U6/T1/T6/firmas.txt";
             BufferedReader f = new BufferedReader(new FileReader(defecto));
@@ -53,15 +54,16 @@ public class firmas {
             }
             f.close();
 
-            if (encontrado=false){
+            if (encontrado==false){
                 BufferedWriter w = new BufferedWriter(new FileWriter(defecto,true));
                 w.newLine();
-                w.write("Nombre: "+nuevo);
+                w.write(nuevo);
                 System.out.println("\n Se ha insertado un nuevo nombre.");
                 w.close();
-            }else{
+            } else{
                 System.out.println("\n Ya ha firmado anteriormente.");
             }
+
         } catch (EOFException e) {
             System.out.println("No se puede abrir el fichero");;
         }catch (FileNotFoundException e){
