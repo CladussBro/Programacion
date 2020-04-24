@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<personas>
+    <persona>
+        <nombre>Claudia</nombre>
+        <apellido>Borrachero</apellido>
+        <edad>19</edad>
+    </persona>
+    <persona>
+        <nombre>Carlos</nombre>
+        <apellido>Puyana</apellido>
+        <edad>22</edad>
+    </persona>
+    <persona>
+        <nombre>Isidro</nombre>
+        <apellido>Pérez</apellido>
+        <edad>20</edad>
+    </persona>
+    <persona>
+        <nombre>Selena</nombre>
+        <apellido>Gómez</apellido>
+        <edad>27</edad>
+    </persona>
+    <persona>
+        <nombre>Ariana</nombre>
+        <apellido>Grande</apellido>
+        <edad>26</edad>
+    </persona>
+</personas>

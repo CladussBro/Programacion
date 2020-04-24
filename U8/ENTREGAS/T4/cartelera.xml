@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cartelera>
+    <peliculas duracion="120">
+        <nombre>Oblivion</nombre>
+        <actor_principal>Tom Cruise</actor_principal>
+    </peliculas>
+    <peliculas duracion="90">
+        <nombre>Scary Movie</nombre>
+        <actor_principal>Anna Faris</actor_principal>
+    </peliculas>
+</cartelera>
