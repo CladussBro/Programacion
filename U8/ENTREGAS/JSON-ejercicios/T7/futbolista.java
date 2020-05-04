@@ -1,18 +1,18 @@
-package T6;
+package T7;
 
 import java.util.ArrayList;
 
 public class futbolista {
+    private Integer id;
     private int numero;
     private String nombre;
     private String equipo;
     private ArrayList<posicion> posi;
 
 
-    public futbolista(int numero,String nombre,ArrayList<String>posicion,String equipo){
+    public futbolista(int numero,String nombre,String equipo){
         this.numero=numero;
         this.nombre=nombre;
-        this.posi=posi;
         this.equipo=equipo;
     }
 
