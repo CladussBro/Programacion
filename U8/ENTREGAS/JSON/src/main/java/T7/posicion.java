@@ -1,9 +1,8 @@
-package T6;
-
-import java.util.ArrayList;
+package T7;
 
 public class posicion {
       private String posicion;
+      private Integer id;
 
       public posicion(String posicion){
           this.posicion=posicion;

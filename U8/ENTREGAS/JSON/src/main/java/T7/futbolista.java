@@ -1,8 +1,9 @@
-package T6;
+package T7;
 
 import java.util.ArrayList;
 
 public class futbolista {
+    private Integer id;
     private int numero;
     private String nombre;
     private String equipo;
