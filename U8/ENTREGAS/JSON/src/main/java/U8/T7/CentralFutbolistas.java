@@ -1,4 +1,4 @@
-package T7;
+package U8.T7;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

@@ -1,4 +1,4 @@
-package T8;
+package U8.T8;
 
 public class asignaturas {
     private Integer id;

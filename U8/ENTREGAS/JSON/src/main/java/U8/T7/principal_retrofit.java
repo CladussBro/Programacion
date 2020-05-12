@@ -1,11 +1,10 @@
-package T7;
+package U8.T7;
 
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 import java.io.IOException;
-import java.util.List;
 
 public class principal_retrofit {
   public static void main(String[] args) {

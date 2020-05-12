@@ -1,8 +1,7 @@
-package T7;
+package U8.T6;
 
 public class posicion {
       private String posicion;
-      private Integer id;
 
       public posicion(String posicion){
           this.posicion=posicion;

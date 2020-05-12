@@ -1,4 +1,4 @@
-package T6;
+package U8.T6;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

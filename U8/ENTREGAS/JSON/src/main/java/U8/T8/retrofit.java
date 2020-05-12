@@ -1,4 +1,4 @@
-package T8;
+package U8.T8;
 
 import com.google.gson.Gson;
 import retrofit2.Response;
@@ -6,7 +6,6 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
