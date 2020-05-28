@@ -1,4 +1,4 @@
-package Tarea9;
+package U2.Tarea_9;
 
 import java.util.Scanner;
 

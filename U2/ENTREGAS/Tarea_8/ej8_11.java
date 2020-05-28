@@ -1,4 +1,4 @@
-package Tarea8;
+package U2.Tarea_8;
 
 public class ej8_11 {
     public static void main(String[] args) {

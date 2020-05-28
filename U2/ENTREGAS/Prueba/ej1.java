@@ -1,4 +1,4 @@
-package Prueba;
+package U2.Prueba;
 
 import java.util.Scanner;
 

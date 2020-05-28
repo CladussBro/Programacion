@@ -1,4 +1,4 @@
-package EXAMEN;
+package U2.EXAMEN;
 
 import java.util.Scanner;
 

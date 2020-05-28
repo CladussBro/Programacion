@@ -1,4 +1,4 @@
-package Tarea4;
+package U2.Tarea_4;
 
 public class ej4_1 {
     public static void main(String[] args) {

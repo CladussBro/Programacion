@@ -1,4 +1,4 @@
-package Tarea5;
+package U2.Tarea_5;
 
 import java.util.Scanner;
 
